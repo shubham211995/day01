@@ -29,3 +29,9 @@ for word in words:
         frequency[word] = 1;
 
 print(frequency)
+
+## Problem 3
+# Take even numbers and square them.
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+
+print([number * number for number in numbers if number % 2 == 0])
