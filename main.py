@@ -35,3 +35,17 @@ print(frequency)
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 
 print([number * number for number in numbers if number % 2 == 0])
+
+
+## Output pridiction
+# First
+a = [1, 2]
+b = a
+c = a.copy()
+
+b.append(3)
+c.append(4)
+
+print(a)
+print(b)
+print(c)
