@@ -13,4 +13,3 @@ def analyze_user(users):
 
 
 print(analyze_user(users))
-#test commit
