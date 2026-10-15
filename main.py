@@ -30,6 +30,17 @@ for word in words:
 
 print(frequency)
 
+## Problem 4
+# Deduplication of a list
+numbers = [4, 2, 4, 1, 2, 5, 1]
+unique = []
+for number in numbers:
+    if number not in unique:
+        unique.append(number) 
+print(unique)
+
+
+
 ## Problem 3
 # Take even numbers and square them.
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
